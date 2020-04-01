@@ -1,22 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 150px;
-    gap: 15px;
-    justify-content: center;
-
-    @media(max-width: 660px){
-        flex-direction: column;
-        align-items: center;
-    }
-`;
-
 export const Phrase = styled.p`
     color: #fff;
     width: 50%;
-    font-size: 25px;
+    font-size: 23px;
     transform: translateX(50%) scale(0);
     opacity: 0;
     display: flex;
