@@ -26,7 +26,7 @@ export const Phrase = styled.p`
     z-index: 1;
 
     @media(max-width: 660px){
-        font-size: 20px;
+        font-size: 18px;
     }
 `;
 
